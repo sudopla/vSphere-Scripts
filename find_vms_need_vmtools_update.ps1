@@ -1,4 +1,4 @@
-#This script will find all the virtual machines that need to update VMware tools.
+#This script will find all the virtual machines that need to update or install VMware tools.
 
 Get-Module -ListAvailable VMware.* | Import-Module
 Connect-VIServer -Server 'vCenter_IP_address' -User administrator@vsphere.local -Password ''
